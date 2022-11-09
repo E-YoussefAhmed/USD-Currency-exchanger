@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #0ea70e;
+}
+.title {
+  text-align: center;
+  user-select: none;
+}
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body div:first-child {
+  width: 100%;
+}
+.price .usd-amount form,
+.price .amount form {
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  user-select: none;
+  flex-basis: 50%;
+}
